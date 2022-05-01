@@ -10,6 +10,7 @@ b2.pack()
 te = Text()
 te.pack()
 def open3():
+    te.delete(1.0,END)
     v = open(e.get(), 'r')
     g=v.readlines()
     for item in g:
