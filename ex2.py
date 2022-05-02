@@ -1,6 +1,4 @@
-from cgitb import text
 from tkinter import *
-from turtle import bye
 root = Tk()
 bRED = Button(text = "",width=3,height=1)
 bOrange = Button(text = "",width=3,height=1)
