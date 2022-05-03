@@ -6,6 +6,7 @@ lbox = Listbox( width=10, height=5)
 lbox.pack()
 def enter(event):
     lbox.insert(0,e.get())
+    e.delete(0,END)
 def copy(event):
     e.delete(0,END)
     select = lbox.curselection()
